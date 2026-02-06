@@ -19,8 +19,11 @@ INSTALLED_APPS = [
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',  # Necesario para sesiones
     'django.middleware.common.CommonMiddleware',
     'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',  # Necesario para autenticación
+    'django.contrib.messages.middleware.MessageMiddleware',  # Necesario para mensajes
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 

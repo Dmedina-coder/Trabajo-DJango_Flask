@@ -10,12 +10,12 @@ DJANGO_MANAGE=django_app/manage.py
 # Arrancar la aplicación Flask
 flask:
 	@echo "Iniciando la aplicación Flask..."
-	python $(FLASK_APP)
+	python3 $(FLASK_APP)
 
 # Arrancar la aplicación Django
 django:
 	@echo "Iniciando la aplicación Django..."
-	python $(DJANGO_MANAGE) runserver
+	python3 $(DJANGO_MANAGE) runserver
 
 # Arrancar ambas aplicaciones
 run_all:
