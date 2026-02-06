@@ -1,21 +1,17 @@
 # Makefile para gestionar el proyecto Flask y Django
 
-# Variables
-FLASK_APP=flask_app/app.py
-DJANGO_MANAGE=django_app/manage.py
-
 # Reglas
 .PHONY: flask django run_all install clean
 
 # Arrancar la aplicación Flask
 flask:
 	@echo "Iniciando la aplicación Flask..."
-	python3 $(FLASK_APP)
+	python3 -m flask_app.app
 
 # Arrancar la aplicación Django
 django:
 	@echo "Iniciando la aplicación Django..."
-	python3 $(DJANGO_MANAGE) runserver
+	python3 ./django_app/manage.py runserver
 
 # Arrancar ambas aplicaciones
 run_all:

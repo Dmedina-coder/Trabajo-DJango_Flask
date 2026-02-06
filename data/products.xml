@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<products>
+    <product id="1">
+        <name>Manzana</name>
+        <description>Manzanas rojas frescas, crujientes.</description>
+        <price currency="EUR">0.65</price>
+        <image>https://www.dia.es/product_images/69/69_ISO_0_ES.jpg</image>
+    </product>
+    <product id="2">
+        <name>Leche Entera 1L</name>
+        <description>Leche entera pasteurizada en envase de 1 litro.</description>
+        <price currency="EUR">1.10</price>
+        <image>https://www.dia.es/product_images/608/608_ISO_0_ES.jpg</image>
+    </product>
+    <product id="3">
+        <name>Pan de Molde</name>
+        <description>Pan de molde integral, 500g.</description>
+        <price currency="EUR">1.45</price>
+        <image>https://www.dia.es/product_images/77955/77955_ISO_0_ES.jpg</image>
+    </product>
+    <product id="4">
+        <name>Huevos (6)</name>
+        <description>Huevos de gallinas criadas en libertad, paquete de 6.</description>
+        <price currency="EUR">2.10</price>
+        <image>https://www.dia.es/product_images/306230/306230_ISO_0_ES.jpg</image>
+    </product>
+    <product id="5">
+        <name>Queso Manchego 200g</name>
+        <description>Queso curado artesanal, 200 gramos.</description>
+        <price currency="EUR">3.95</price>
+        <image>https://www.dia.es/product_images/108589/108589_ISO_0_ES.jpg</image>
+    </product>
+    <product id="6">
+        <name>Arroz Largo 1kg</name>
+        <description>Arroz de grano largo, paquete 1 kg.</description>
+        <price currency="EUR">1.75</price>
+        <image>https://www.dia.es/product_images/5873/5873_ISO_0_ES.jpg</image>
+    </product>
+    <product id="7">
+        <name>Pasta Espaguetis 500g</name>
+        <description>Spaghetti de sémola de trigo, 500 gramos.</description>
+        <price currency="EUR">1.20</price>
+        <image>https://www.dia.es/product_images/52208/52208_ISO_0_ES.jpg</image>
+    </product>
+    <product id="8">
+        <name>Azúcar Blanca 1kg</name>
+        <description>Azúcar blanca refinada, 1 kilogramo.</description>
+        <price currency="EUR">0.99</price>
+        <image>https://www.dia.es/product_images/81798/81798_ISO_0_ES.jpg</image>
+    </product>
+    <product id="9">
+        <name>Café Molido 250g</name>
+        <description>Café molido mezcla intensa, paquete 250 g.</description>
+        <price currency="EUR">3.25</price>
+        <image>https://www.dia.es/product_images/151636/151636_ISO_0_ES.jpg</image>
+    </product>
+    <product id="10">
+        <name>Aceite de Oliva 500ml</name>
+        <description>Aceite de oliva virgen extra, botella 500 ml.</description>
+        <price currency="EUR">5.50</price>
+        <image>https://www.dia.es/product_images/112529/112529_ISO_0_ES.jpg</image>
+    </product>
+</products>
