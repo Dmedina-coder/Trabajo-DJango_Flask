@@ -2,3 +2,5 @@
 /django_app/django_app/__pycache__/
 /django_app/django_app/migrations/__pycache__/
 /flask_app/__pycache__/
+/django_app/products/__pycache__/
+/django_app/products/migrations/__pycache__/
